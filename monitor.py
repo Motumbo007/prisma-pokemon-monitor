@@ -4,13 +4,10 @@ import json
 import os
 import sys
 
-# ── Config ──────────────────────────────────────────────────────────────────
+# ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID        = '8001155433'
 STATE_FILE     = 'state.json'
-
-BASE_URL  = 'https://www.prisma.fi/tuotemerkit/pokemon/kategoria/1559/kerailykortit-ja-tuotteet'
-PAGE_URL  = 'https://www.prisma.fi/kategoriat/1559/kerailykortit-ja-tuotteet?page={}'
 
 HEADERS = {
     'User-Agent': (
@@ -21,7 +18,24 @@ HEADERS = {
     'Accept-Language': 'fi-FI,fi;q=0.9',
 }
 
-# ── Scraping ─────────────────────────────────────────────────────────────────
+SOURCES = [
+    {
+        'label':        'Pokemon TCG -kategoria',
+        'base_url':     'https://www.prisma.fi/tuotemerkit/pokemon/kategoria/1559/kerailykortit-ja-tuotteet',
+        'page_url':     'https://www.prisma.fi/kategoriat/1559/kerailykortit-ja-tuotteet?page={}',
+        'max_pages':    6,
+        'pokemon_only': False,
+    },
+    {
+        'label':        'Elektroniikan uutuudet',
+        'base_url':     'https://www.prisma.fi/kategoriat/3120/elektroniikan-uutuudet',
+        'page_url':     'https://www.prisma.fi/kategoriat/3120/elektroniikan-uutuudet?page={}',
+        'max_pages':    10,
+        'pokemon_only': True,
+    },
+]
+
+# ── Scraping ──────────────────────────────────────────────────────────────────
 def fetch_page(url):
     try:
         r = requests.get(url, headers=HEADERS, timeout=20)
@@ -32,44 +46,35 @@ def fetch_page(url):
         return None
 
 
-def parse_products(html):
-    """Return dict of {product_name: is_available (bool)}"""
+def parse_products(html, pokemon_only=False):
+    """
+    Each product is an <a href="/tuotteet/..."> inside a <li>.
+    The <li> may contain 'Ei saatavilla' if out of stock.
+    """
     soup = BeautifulSoup(html, 'html.parser')
     products = {}
 
-    # Prisma renders product cards — try several common selectors
-    cards = (
-        soup.select('div[class*="ProductCard"]') or
-        soup.select('li[class*="product"]') or
-        soup.select('article[class*="product"]') or
-        soup.select('div[class*="product-card"]') or
-        soup.select('div[class*="ProductItem"]')
-    )
+    product_links = soup.find_all('a', href=lambda h: h and '/tuotteet/' in h)
 
-    if not cards:
-        # Fallback: find all elements containing a price
-        cards = soup.find_all(lambda tag: tag.name in ('div', 'li', 'article')
-                              and tag.find(string=lambda s: s and '€' in s))
+    for link in product_links:
+        name = link.get_text(strip=True)
 
-    for card in cards:
-        # Name: first heading or strong inside the card
-        name_el = (
-            card.find(['h2', 'h3', 'h4', 'strong']) or
-            card.find(class_=lambda c: c and 'name' in c.lower()) or
-            card.find(class_=lambda c: c and 'title' in c.lower())
-        )
-        if not name_el:
-            continue
-
-        name = name_el.get_text(strip=True)
         if not name or len(name) < 5:
             continue
 
-        # Availability: look for "Ei saatavilla" text anywhere in the card
-        card_text = card.get_text()
-        is_available = 'Ei saatavilla' not in card_text
+        if pokemon_only and 'okemon' not in name:
+            continue
 
-        products[name] = is_available
+        # Find the nearest <li> parent — that's the product card
+        li = link.find_parent('li')
+        if li:
+            is_available = 'Ei saatavilla' not in li.get_text()
+        else:
+            # Fallback: check just the link's immediate parent
+            is_available = 'Ei saatavilla' not in link.parent.get_text()
+
+        product_url = 'https://www.prisma.fi' + link['href'].split('?')[0]
+        products[name] = {'available': is_available, 'url': product_url}
 
     return products
 
@@ -77,21 +82,26 @@ def parse_products(html):
 def get_all_products():
     all_products = {}
 
-    # Page 1
-    html = fetch_page(BASE_URL)
-    if html:
-        all_products.update(parse_products(html))
+    for source in SOURCES:
+        print(f"Checking: {source['label']}")
+        found_on_source = 0
 
-    # Pages 2–5 (Prisma rarely has more than 3 pages of Pokemon)
-    for page_num in range(2, 6):
-        url  = PAGE_URL.format(page_num)
-        html = fetch_page(url)
-        if not html:
-            break
-        found = parse_products(html)
-        if not found:
-            break  # No more products — stop
-        all_products.update(found)
+        for page_num in range(1, source['max_pages'] + 1):
+            url  = source['base_url'] if page_num == 1 else source['page_url'].format(page_num)
+            html = fetch_page(url)
+
+            if not html:
+                break
+
+            page_products = parse_products(html, pokemon_only=source['pokemon_only'])
+
+            if not page_products:
+                break
+
+            found_on_source += len(page_products)
+            all_products.update(page_products)
+
+        print(f"  -> {found_on_source} products found")
 
     return all_products
 
@@ -120,43 +130,48 @@ def send_telegram(message):
     try:
         r = requests.post(url, data=data, timeout=10)
         r.raise_for_status()
-        print('[OK] Telegram message sent')
+        print('[OK] Telegram alert sent')
     except Exception as e:
-        print(f'[ERROR] Telegram send failed: {e}')
+        print(f'[ERROR] Telegram failed: {e}')
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    print('Fetching Prisma Pokemon products...')
-    old_state   = load_state()
-    new_state   = get_all_products()
+    print('=== Prisma Pokemon Monitor ===')
+    old_state = load_state()
+    new_state = get_all_products()
 
     if not new_state:
-        print('[WARN] No products found — Prisma may have blocked the request or changed their HTML. Skipping.')
+        print('[WARN] No products found — Prisma may have blocked the scraper.')
         sys.exit(0)
 
-    print(f'Found {len(new_state)} products. Previously tracked: {len(old_state)}.')
+    print(f'Total products found: {len(new_state)} | Previously tracked: {len(old_state)}')
 
     alerts = []
 
-    for name, is_available in new_state.items():
-        prev = old_state.get(name)
+    for name, info in new_state.items():
+        prev      = old_state.get(name)
+        available = info['available']
+        url       = info['url']
 
         if prev is None:
-            # Brand new product we've never seen
-            status_icon = '✅ Saatavilla' if is_available else '❌ Ei saatavilla'
-            alerts.append(f'🆕 <b>UUSI TUOTE</b>\n{name}\n{status_icon}')
-
-        elif is_available and not prev:
-            # Was out of stock, now in stock
+            status = '✅ Saatavilla' if available else '❌ Ei saatavilla'
+            alerts.append(
+                f'🆕 <b>UUSI TUOTE</b>\n{name}\n{status}\n'
+                f'🔗 <a href="{url}">Katso Prismasta</a>'
+            )
+        elif available and not prev.get('available'):
             alerts.append(
                 f'🔄 <b>RESTOCK!</b>\n{name}\n✅ Nyt saatavilla!\n'
-                f'🔗 <a href="{BASE_URL}">Osta nyt → Prisma</a>'
+                f'🔗 <a href="{url}">Osta nyt</a>'
             )
 
     if alerts:
-        message = '🎴 <b>Prisma Pokémon Alert</b>\n\n' + '\n\n'.join(alerts)
-        send_telegram(message)
+        print(f'Sending {len(alerts)} alerts...')
+        for i in range(0, len(alerts), 5):
+            batch   = alerts[i:i+5]
+            message = '🎴 <b>Prisma Pokémon Alert</b>\n\n' + '\n\n'.join(batch)
+            send_telegram(message)
     else:
         print('No changes detected.')
 
