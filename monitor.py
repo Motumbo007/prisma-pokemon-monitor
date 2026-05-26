@@ -4,10 +4,11 @@ import json
 import os
 import sys
 import time
+from datetime import datetime, timezone
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
-CHAT_ID        = '8001155433'
+CHAT_ID        = os.environ.get('CHAT_ID')
 STATE_FILE     = 'state.json'
 
 HEADERS = {
@@ -53,11 +54,6 @@ def is_pokemon(name):
 
 
 def check_delivery_available(product_url):
-    """
-    Fetches the individual product page and checks whether
-    home delivery (Toimitus) is available — not just store pickup.
-    'Kotiin tai noutopisteelle' only appears when delivery actually works.
-    """
     html = fetch_page(product_url)
     if not html:
         return False
@@ -137,8 +133,8 @@ def save_state(state):
 
 # ── Telegram ──────────────────────────────────────────────────────────────────
 def send_telegram(message):
-    if not TELEGRAM_TOKEN:
-        print('[ERROR] TELEGRAM_TOKEN not set')
+    if not TELEGRAM_TOKEN or not CHAT_ID:
+        print('[ERROR] TELEGRAM_TOKEN or CHAT_ID not set')
         return
     url  = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage'
     data = {'chat_id': CHAT_ID, 'text': message, 'parse_mode': 'HTML'}
@@ -150,6 +146,18 @@ def send_telegram(message):
         print(f'[ERROR] Telegram failed: {e}')
 
 
+# ── Heartbeat ─────────────────────────────────────────────────────────────────
+def should_send_heartbeat(state):
+    """Send heartbeat once per week — every Monday."""
+    today = datetime.now(timezone.utc)
+    if today.weekday() != 0:  # 0 = Monday
+        return False
+    last = state.get('_heartbeat_date')
+    if last == today.strftime('%Y-%m-%d'):
+        return False  # Already sent today
+    return True
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print('=== Prisma Pokemon Monitor ===')
@@ -158,6 +166,7 @@ def main():
 
     if not new_state:
         print('[WARN] No products found — Prisma may have blocked the scraper.')
+        send_telegram('⚠️ <b>Monitor varoitus</b>\n\nPrisma-skannaus epäonnistui. Sivusto saattaa estää yhteydet. Tarkista tilanne.')
         sys.exit(0)
 
     print(f'Total products found: {len(new_state)} | Previously tracked: {len(old_state)}')
@@ -197,6 +206,18 @@ def main():
             send_telegram(message)
     else:
         print('No changes detected.')
+
+    # Heartbeat — once per week on Monday
+    if should_send_heartbeat(old_state):
+        product_count = len(new_state)
+        now = datetime.now(timezone.utc).strftime('%d.%m.%Y %H:%M')
+        send_telegram(
+            f'✅ <b>Monitor toimii</b>\n\n'
+            f'Skannaus käynnissä normaalisti.\n'
+            f'Seurataan {product_count} tuotetta.\n'
+            f'Viimeisin tarkistus: {now} UTC'
+        )
+        new_state['_heartbeat_date'] = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
     save_state(new_state)
     print('Done.')
