@@ -30,10 +30,11 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python monitor.py
 
-      - name: Save updated state
+     - name: Save updated state
         run: |
           git config user.name  "Pokemon Monitor Bot"
           git config user.email "bot@prisma-monitor"
+          git pull --rebase
           git add state.json
           git diff --staged --quiet || git commit -m "chore: update product state"
           git push
