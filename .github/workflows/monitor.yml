@@ -13,6 +13,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Pull latest state
+        run: git pull --rebase
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -27,7 +29,6 @@ jobs:
         run: |
           git config user.name "Pokemon Monitor Bot"
           git config user.email "bot@prisma-monitor"
-          git pull --rebase
           git add state.json
           git diff --staged --quiet || git commit -m "chore: update product state"
           git push
