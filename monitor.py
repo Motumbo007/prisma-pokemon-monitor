@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 import sys
+import time
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
@@ -34,6 +35,7 @@ SOURCES = [
         'pokemon_only': True,
     },
 ]
+
 # ── Scraping ──────────────────────────────────────────────────────────────────
 def fetch_page(url):
     try:
@@ -45,11 +47,12 @@ def fetch_page(url):
         return None
 
 
+def is_pokemon(name):
+    name_lower = name.lower()
+    return 'pokemon' in name_lower or 'pokémon' in name_lower
+
+
 def parse_products(html, pokemon_only=False):
-    """
-    Each product is an <a href="/tuotteet/..."> inside a <li>.
-    The <li> may contain 'Ei saatavilla' if out of stock.
-    """
     soup = BeautifulSoup(html, 'html.parser')
     products = {}
 
@@ -61,15 +64,13 @@ def parse_products(html, pokemon_only=False):
         if not name or len(name) < 5:
             continue
 
-        if pokemon_only and 'okemon' not in name:
+        if pokemon_only and not is_pokemon(name):
             continue
 
-        # Find the nearest <li> parent — that's the product card
         li = link.find_parent('li')
         if li:
             is_available = 'Ei saatavilla' not in li.get_text()
         else:
-            # Fallback: check just the link's immediate parent
             is_available = 'Ei saatavilla' not in link.parent.get_text()
 
         product_url = 'https://www.prisma.fi' + link['href'].split('?')[0]
@@ -99,6 +100,8 @@ def get_all_products():
 
             found_on_source += len(page_products)
             all_products.update(page_products)
+
+            time.sleep(2)  # Be polite — avoid rate limiting
 
         print(f"  -> {found_on_source} products found")
 
