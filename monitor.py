@@ -56,29 +56,13 @@ def check_delivery_available(product_url):
     """
     Fetches the individual product page and checks whether
     home delivery (Toimitus) is available — not just store pickup.
-    Returns True if delivery is available, False if only pickup or nothing.
+    'Kotiin tai noutopisteelle' only appears when delivery actually works.
     """
     html = fetch_page(product_url)
     if not html:
         return False
-
     soup = BeautifulSoup(html, 'html.parser')
-    text = soup.get_text()
-
-    # Find the Toimitus section and check if it says Ei saatavilla
-    # The page structure is: "Toimitus\n  Ei saatavilla" when delivery is unavailable
-    lines = [line.strip() for line in text.splitlines() if line.strip()]
-    for i, line in enumerate(lines):
-        if line == 'Toimitus':
-            # Check the next few lines for "Ei saatavilla"
-            snippet = ' '.join(lines[i:i+4])
-            if 'Ei saatavilla' in snippet:
-                return False
-            else:
-                return True
-
-    # If we can't find the Toimitus section, assume available
-    return True
+    return 'Kotiin tai noutopisteelle' in soup.get_text()
 
 
 def parse_products(html, pokemon_only=False):
@@ -98,8 +82,6 @@ def parse_products(html, pokemon_only=False):
 
         li = link.find_parent('li')
         if li:
-            # On the category page, Ei saatavilla means completely unavailable
-            # (neither delivery nor pickup)
             is_available = 'Ei saatavilla' not in li.get_text()
         else:
             is_available = 'Ei saatavilla' not in link.parent.get_text()
@@ -187,29 +169,25 @@ def main():
         available = info['available']
         url       = info['url']
 
-        is_new    = prev is None
+        is_new     = prev is None
         is_restock = available and prev is not None and not prev.get('available')
 
-        if is_new or is_restock:
-            if available:
-                # Product appears available on category page —
-                # now check if delivery specifically is available
-                print(f'  Checking delivery for: {name}')
-                delivery_ok = check_delivery_available(url)
-                time.sleep(1)
+        if (is_new or is_restock) and available:
+            print(f'  Checking delivery for: {name}')
+            delivery_ok = check_delivery_available(url)
+            time.sleep(1)
 
-                if delivery_ok:
-                    tag = '🆕 <b>UUSI TUOTE</b>' if is_new else '🔄 <b>RESTOCK!</b>'
-                    alerts.append(
-                        f'{tag}\n{name}\n✅ Toimitus saatavilla!\n'
-                        f'🔗 <a href="{url}">Osta nyt</a>'
-                    )
-                else:
-                    print(f'  -> Delivery unavailable, skipping alert for: {name}')
+            if delivery_ok:
+                tag = '🆕 <b>UUSI TUOTE</b>' if is_new else '🔄 <b>RESTOCK!</b>'
+                alerts.append(
+                    f'{tag}\n{name}\n✅ Toimitus saatavilla!\n'
+                    f'🔗 <a href="{url}">Osta nyt</a>'
+                )
             else:
-                # New product but currently unavailable — just log, no alert
-                if is_new:
-                    print(f'  New product (unavailable): {name}')
+                print(f'  -> Ei toimitusta, ohitetaan: {name}')
+
+        elif is_new and not available:
+            print(f'  Uusi tuote (ei saatavilla): {name}')
 
     if alerts:
         print(f'Sending {len(alerts)} alerts...')
