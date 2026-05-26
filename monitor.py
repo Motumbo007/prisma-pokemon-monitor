@@ -24,7 +24,7 @@ SOURCES = [
         'base_url':     'https://www.prisma.fi/tuotemerkit/pokemon/kategoria/1559/kerailykortit-ja-tuotteet',
         'page_url':     'https://www.prisma.fi/kategoriat/1559/kerailykortit-ja-tuotteet?page={}',
         'max_pages':    6,
-        'pokemon_only': False,
+        'pokemon_only': True,
     },
     {
         'label':        'Elektroniikan uutuudet',
@@ -34,7 +34,6 @@ SOURCES = [
         'pokemon_only': True,
     },
 ]
-
 # ── Scraping ──────────────────────────────────────────────────────────────────
 def fetch_page(url):
     try:
