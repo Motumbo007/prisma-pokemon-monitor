@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
-CHAT_ID        = os.environ.get('CHAT_ID')
+CHAT_IDS       = [os.environ.get('CHAT_ID'), '6956052569']
 STATE_FILE     = 'state.json'
 
 HEADERS = {
@@ -133,28 +133,30 @@ def save_state(state):
 
 # ── Telegram ──────────────────────────────────────────────────────────────────
 def send_telegram(message):
-    if not TELEGRAM_TOKEN or not CHAT_ID:
-        print('[ERROR] TELEGRAM_TOKEN or CHAT_ID not set')
+    if not TELEGRAM_TOKEN:
+        print('[ERROR] TELEGRAM_TOKEN not set')
         return
-    url  = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage'
-    data = {'chat_id': CHAT_ID, 'text': message, 'parse_mode': 'HTML'}
-    try:
-        r = requests.post(url, data=data, timeout=10)
-        r.raise_for_status()
-        print('[OK] Telegram alert sent')
-    except Exception as e:
-        print(f'[ERROR] Telegram failed: {e}')
+    url = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage'
+    for chat_id in CHAT_IDS:
+        if not chat_id:
+            continue
+        data = {'chat_id': chat_id, 'text': message, 'parse_mode': 'HTML'}
+        try:
+            r = requests.post(url, data=data, timeout=10)
+            r.raise_for_status()
+            print(f'[OK] Telegram alert sent to {chat_id}')
+        except Exception as e:
+            print(f'[ERROR] Telegram failed for {chat_id}: {e}')
 
 
 # ── Heartbeat ─────────────────────────────────────────────────────────────────
 def should_send_heartbeat(state):
-    """Send heartbeat once per week — every Monday."""
     today = datetime.now(timezone.utc)
-    if today.weekday() != 0:  # 0 = Monday
+    if today.weekday() != 0:
         return False
     last = state.get('_heartbeat_date')
     if last == today.strftime('%Y-%m-%d'):
-        return False  # Already sent today
+        return False
     return True
 
 
