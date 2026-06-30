@@ -76,7 +76,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon Reshiram EX Box": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111211503/pokemon-reshiram-ex-box-111211503"
   },
   "Pokémon TCG Spring Tin 2026": {
@@ -188,7 +188,7 @@
     "url": "https://www.prisma.fi/tuotteet/110836334/pokemon-scarlet-violet-paradox-rift-kerailykortti-kerailykortit-110836334"
   },
   "Pokemon Mega Evolution 3 pack -paketti Golduck keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226206/pokemon-mega-evolution-3-pack-paketti-golduck-kerailykortit-111226206"
   },
   "Pokemon EX Box Mega Kangaskhan keräilykortti": {
@@ -220,7 +220,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
   },
   "Pokemon 9-pocket Binder -keräilykansio Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124408/pokemon-9-pocket-binder-kerailykansio-journey-together-kerailykortit-111124408"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
