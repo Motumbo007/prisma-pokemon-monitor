@@ -48,7 +48,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon TCG ME02.5 Elite Trainer Box": {
@@ -76,7 +76,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124412/pokemon-scarlet-violet-kerailykortit-journey-together-kerailykortit-111124412"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
   "Pokemon 9-pocket Binder -keräilykansio Mega Evolution keräilykortit": {
@@ -112,7 +112,7 @@
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon EX Tin -rasia Azure Legends keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124415/pokemon-ex-tin-rasia-azure-legends-kerailykortit-111124415"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
@@ -148,7 +148,7 @@
     "url": "https://www.prisma.fi/tuotteet/111160310/pokemon-scarlet-violet-checklane-destined-rivals-kerailykortit-111160310"
   },
   "Pokemon EX Tin -rasia Slashing Legends keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111153134/pokemon-ex-tin-rasia-slashing-legends-kerailykortit-111153134"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
@@ -160,7 +160,7 @@
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon 9-pocket Binder -keräilykansio Surging Sparks keräilykortit": {
