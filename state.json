@@ -44,11 +44,11 @@
     "url": "https://www.prisma.fi/tuotteet/111239018/pokemon-tcg-charizard-super-premium-collection-111239018"
   },
   "Pokémon TCG Pokémon day -juhlatuote": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon TCG ME02.5 Elite Trainer Box": {
@@ -116,7 +116,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124415/pokemon-ex-tin-rasia-azure-legends-kerailykortit-111124415"
   },
   "Pokemon Mega Evolution 3 pack -paketti Golduck keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226206/pokemon-mega-evolution-3-pack-paketti-golduck-kerailykortit-111226206"
   },
   "Pokemon Scarlet & Violet Unova Victini Illustration Collection Black Bolt & White Flare keräilykortit": {
@@ -192,7 +192,7 @@
     "url": "https://www.prisma.fi/tuotteet/111107228/pokemon-stacking-tin-treasures-of-ruin-paradox-tai-ogerpon-kerailykortit-111107228"
   },
   "Pokemon Mega Evolution Phantasmal Flames Checklane keräilykortti": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
   },
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
