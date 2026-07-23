@@ -32,7 +32,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239000/pokemon-tcg-me025-mini-tin-111239000"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111211502/pokemon-mega-charizard-ultra-premium-collection-111211502"
   },
   "Pokémon TCG ME02.5 Enhanced 2-Pack": {
@@ -100,7 +100,7 @@
     "url": "https://www.prisma.fi/tuotteet/111166630/pokemon-ex-box-team-rocket-s-mewtwo-kerailykortit-111166630"
   },
   "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
