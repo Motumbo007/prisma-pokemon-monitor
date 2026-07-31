@@ -64,7 +64,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226204/pokemon-mega-evolution-kerailykortit-2025-kerailykortit-111226204"
   },
   "Pokémon TCG keräilykortit First Partner Collection Box": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
@@ -76,7 +76,7 @@
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
   "Pokemon Booster Bundle White Flare keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111189306/pokemon-booster-bundle-white-flare-kerailykortit-111189306"
   },
   "Pokemon 9-pocket Binder -keräilykansio Mega Evolution keräilykortit": {
@@ -184,7 +184,7 @@
     "url": "https://www.prisma.fi/tuotteet/111048812/pokemon-ex-box-bloodmoon-ursaluna-kerailykortit-111048812"
   },
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon 4-pocket Binder -keräilykansio Pikachu keräilykortit": {
@@ -192,7 +192,7 @@
     "url": "https://www.prisma.fi/tuotteet/110436626/pokemon-4-pocket-binder-kerailykansio-pikachu-kerailykortit-110436626"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon Stacking Tin -Treasures of Ruin, Paradox tai Ogerpon keräilykortit": {
