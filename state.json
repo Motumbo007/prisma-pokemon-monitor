@@ -84,7 +84,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111189305/pokemon-booster-bundle-black-bolt-kerailykortit-111189305"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
@@ -132,11 +132,11 @@
     "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
   },
   "Pokemon Mini Tin": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon EX Box Hop´s Zacian ex Box keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111136483/pokemon-ex-box-hops-zacian-ex-box-kerailykortit-111136483"
   },
   "Pokemon 9-pocket Binder -keräilykansio Surging Sparks keräilykortit": {
@@ -144,7 +144,7 @@
     "url": "https://www.prisma.fi/tuotteet/111095688/pokemon-9-pocket-binder-kerailykansio-surging-sparks-kerailykortit-111095688"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111251922/pokemon-mega-evolution-phantasmal-flames-kerailykortit-kerailykortti-111251922"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
@@ -152,7 +152,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226207/pokemon-ex-box-mega-latias-kerailykortit-111226207"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111124412/pokemon-scarlet-violet-kerailykortit-journey-together-kerailykortit-111124412"
   },
   "Pokemon EX Box Mega Kangaskhan keräilykortti": {
@@ -184,7 +184,7 @@
     "url": "https://www.prisma.fi/tuotteet/111048812/pokemon-ex-box-bloodmoon-ursaluna-kerailykortit-111048812"
   },
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon 4-pocket Binder -keräilykansio Pikachu keräilykortit": {
