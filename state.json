@@ -32,7 +32,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111211502/pokemon-mega-charizard-ultra-premium-collection-111211502"
   },
   "Pokémon TCG ME02.5 Enhanced 2-Pack": {
@@ -44,7 +44,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239018/pokemon-tcg-charizard-super-premium-collection-111239018"
   },
   "Pokémon TCG Pokémon day -juhlatuote": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
@@ -148,7 +148,7 @@
     "url": "https://www.prisma.fi/tuotteet/111136483/pokemon-ex-box-hops-zacian-ex-box-kerailykortit-111136483"
   },
   "Pokemon 9-pocket Binder -keräilykansio Surging Sparks keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111095688/pokemon-9-pocket-binder-kerailykansio-surging-sparks-kerailykortit-111095688"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
@@ -184,7 +184,7 @@
     "url": "https://www.prisma.fi/tuotteet/111153134/pokemon-ex-tin-rasia-slashing-legends-kerailykortit-111153134"
   },
   "Pokemon 9-pocket Binder -keräilykansio Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124408/pokemon-9-pocket-binder-kerailykansio-journey-together-kerailykortit-111124408"
   },
   "Pokemon 9-pocket Binder -keräilykansio Koraidon & Miraidon keräilykortit": {
