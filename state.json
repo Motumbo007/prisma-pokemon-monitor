@@ -72,7 +72,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokemon Scarlet & Violet Shrovded Fable Illustration Collection Kingambit keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/110981316/pokemon-scarlet-violet-shrovded-fable-illustration-collection-kingambit-kerailykortit-110981316"
   },
   "Pokemon Mega Evolution -keräilykortit 2025 keräilykortit": {
@@ -84,7 +84,7 @@
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
   },
   "Pokemon Booster Bundle White Flare keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111189306/pokemon-booster-bundle-white-flare-kerailykortit-111189306"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
@@ -216,7 +216,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon Mega Evolution Phantasmal Flames Checklane keräilykortti": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
   },
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
@@ -230,6 +230,5 @@
   "Pokemon Scarlet & Violet Checklane Journey Together keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124405/pokemon-scarlet-violet-checklane-journey-together-kerailykortit-111124405"
-  },
-  "_heartbeat_date": "2026-08-10"
+  }
 }
