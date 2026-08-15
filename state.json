@@ -28,7 +28,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239000/pokemon-tcg-me025-mini-tin-111239000"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111211498/pokemon-me02-phantasmal-flames-elite-trainer-box-111211498"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
@@ -92,11 +92,11 @@
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
   },
   "Pokemon Mini Tin Scarlet & Violet Prismatic Evolutions keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Destined Rivals keräilykortit": {
@@ -192,7 +192,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124408/pokemon-9-pocket-binder-kerailykansio-journey-together-kerailykortit-111124408"
   },
   "Pokemon EX Tin -rasia Slashing Legends keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111153134/pokemon-ex-tin-rasia-slashing-legends-kerailykortit-111153134"
   },
   "Pokemon Scarlet & Violet Paradox Rift Keräilykortti keräilykortit": {
@@ -200,7 +200,7 @@
     "url": "https://www.prisma.fi/tuotteet/110836334/pokemon-scarlet-violet-paradox-rift-kerailykortti-kerailykortit-110836334"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon Stacking Tin -Treasures of Ruin, Paradox tai Ogerpon keräilykortit": {
@@ -212,7 +212,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
