@@ -44,7 +44,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon TCG Charizard Super Premium Collection": {
@@ -104,7 +104,7 @@
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
   "Pokemon EX Box Team Rocket's Mewtwo keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111166630/pokemon-ex-box-team-rocket-s-mewtwo-kerailykortit-111166630"
   },
   "Pokemon Scarlet & Violet Unova Poster Collection Black Bolt & White Flare keräilykortit": {
@@ -156,7 +156,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251922/pokemon-mega-evolution-phantasmal-flames-kerailykortit-kerailykortti-111251922"
   },
   "Pokemon EX Box Hop´s Zacian ex Box keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111136483/pokemon-ex-box-hops-zacian-ex-box-kerailykortit-111136483"
   },
   "Pokemon EX Box Mega Kangaskhan keräilykortti": {
@@ -266,5 +266,6 @@
   "Pokémon TCG Premium EX Box": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111354658/pokemon-tcg-premium-ex-box-111354658"
-  }
+  },
+  "_heartbeat_date": "2026-08-17"
 }
