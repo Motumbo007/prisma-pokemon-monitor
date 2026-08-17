@@ -92,7 +92,7 @@
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
   },
   "Pokemon Mini Tin Scarlet & Violet Prismatic Evolutions keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
@@ -119,10 +119,6 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111160307/pokemon-scarlet-violet-3-pack-paketti-destined-rivals-kerailykortit-111160307"
   },
-  "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
-  },
   "Pokemon EX Tin -rasia Azure Legends keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124415/pokemon-ex-tin-rasia-azure-legends-kerailykortit-111124415"
@@ -130,6 +126,10 @@
   "Pokemon Mega Evolution 3 pack -paketti Golduck keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226206/pokemon-mega-evolution-3-pack-paketti-golduck-kerailykortit-111226206"
+  },
+  "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Mini Tin": {
     "available": false,
@@ -143,13 +143,13 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111160309/pokemon-scarlet-violet-kerailykortit-destined-rivals-kerailykortit-111160309"
   },
-  "Pokemon Mega Evolution Phantasmal Flames 3 pack -paketti keräilykortti": {
-    "available": false,
-    "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
-  },
   "Pokemon 9-pocket Binder -keräilykansio Surging Sparks keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111095688/pokemon-9-pocket-binder-kerailykansio-surging-sparks-kerailykortit-111095688"
+  },
+  "Pokemon Mega Evolution Phantasmal Flames 3 pack -paketti keräilykortti": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
     "available": false,
@@ -159,13 +159,13 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111136483/pokemon-ex-box-hops-zacian-ex-box-kerailykortit-111136483"
   },
-  "Pokemon EX Box Mega Kangaskhan keräilykortti": {
-    "available": false,
-    "url": "https://www.prisma.fi/tuotteet/111251917/pokemon-ex-box-mega-kangaskhan-kerailykortti-111251917"
-  },
   "Pokemon Scarlet & Violet Checklane Destined Rivals keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111160310/pokemon-scarlet-violet-checklane-destined-rivals-kerailykortit-111160310"
+  },
+  "Pokemon EX Box Mega Kangaskhan keräilykortti": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/111251917/pokemon-ex-box-mega-kangaskhan-kerailykortti-111251917"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
     "available": false,
@@ -192,7 +192,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124408/pokemon-9-pocket-binder-kerailykansio-journey-together-kerailykortit-111124408"
   },
   "Pokemon EX Tin -rasia Slashing Legends keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111153134/pokemon-ex-tin-rasia-slashing-legends-kerailykortit-111153134"
   },
   "Pokemon Scarlet & Violet Paradox Rift Keräilykortti keräilykortit": {
@@ -212,7 +212,7 @@
     "url": "https://www.prisma.fi/tuotteet/111107228/pokemon-stacking-tin-treasures-of-ruin-paradox-tai-ogerpon-kerailykortit-111107228"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
@@ -266,6 +266,5 @@
   "Pokémon TCG Premium EX Box": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111354658/pokemon-tcg-premium-ex-box-111354658"
-  },
-  "_heartbeat_date": "2026-08-17"
+  }
 }
