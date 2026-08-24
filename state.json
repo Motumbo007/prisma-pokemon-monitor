@@ -136,7 +136,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Scarlet & Violet -keräilykortit Destined Rivals keräilykortit": {
@@ -238,5 +238,6 @@
   "Pokémon TCG  First Partner Collection Box Series  3": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111354652/pokemon-tcg-first-partner-collection-box-series-3-111354652"
-  }
+  },
+  "_heartbeat_date": "2026-08-24"
 }
