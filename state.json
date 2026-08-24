@@ -32,7 +32,7 @@
     "url": "https://www.prisma.fi/tuotteet/111211498/pokemon-me02-phantasmal-flames-elite-trainer-box-111211498"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111211502/pokemon-mega-charizard-ultra-premium-collection-111211502"
   },
   "Pokémon TCG ME02.5 Elite Trainer Box": {
@@ -68,7 +68,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268568/pokemon-tcg-kerailykortit-me03-mini-album-booster-erilaisia-111268568"
   },
   "Pokémon TCG keräilykortit First Partner Collection Box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokemon Scarlet & Violet Shrovded Fable Illustration Collection Kingambit keräilykortit": {
@@ -88,7 +88,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226204/pokemon-mega-evolution-kerailykortit-2025-kerailykortit-111226204"
   },
   "Pokemon Mini Tin Scarlet & Violet Prismatic Evolutions keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
@@ -100,7 +100,7 @@
     "url": "https://www.prisma.fi/tuotteet/111076444/pokemon-scarlet-violet-prismatic-evolutions-tech-sticker-collection-leafeon-glaceon-sylveon-kerailykortit-111076444"
   },
   "Pokemon EX Box Team Rocket's Mewtwo keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111166630/pokemon-ex-box-team-rocket-s-mewtwo-kerailykortit-111166630"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
@@ -238,6 +238,5 @@
   "Pokémon TCG  First Partner Collection Box Series  3": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111354652/pokemon-tcg-first-partner-collection-box-series-3-111354652"
-  },
-  "_heartbeat_date": "2026-08-24"
+  }
 }
