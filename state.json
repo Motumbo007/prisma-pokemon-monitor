@@ -72,7 +72,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokemon Scarlet & Violet Shrovded Fable Illustration Collection Kingambit keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/110981316/pokemon-scarlet-violet-shrovded-fable-illustration-collection-kingambit-kerailykortit-110981316"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
@@ -88,7 +88,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226204/pokemon-mega-evolution-kerailykortit-2025-kerailykortit-111226204"
   },
   "Pokemon Mini Tin Scarlet & Violet Prismatic Evolutions keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
@@ -132,7 +132,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
   "Pokemon Mini Tin": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
@@ -236,7 +236,7 @@
     "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokémon TCG  First Partner Collection Box Series  3": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111354652/pokemon-tcg-first-partner-collection-box-series-3-111354652"
   }
 }
