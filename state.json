@@ -56,7 +56,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239026/pokemon-tcg-spring-tin-2026-111239026"
   },
   "Pokémon TCG ME02.5 Enhanced 2-Pack": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239027/pokemon-tcg-me025-enhanced-2-pack-111239027"
   },
   "Pokémon TCG keräilykortit Premium EX Box": {
@@ -92,7 +92,7 @@
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
@@ -136,7 +136,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Scarlet & Violet -keräilykortit Destined Rivals keräilykortit": {
@@ -216,7 +216,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124405/pokemon-scarlet-violet-checklane-journey-together-kerailykortit-111124405"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
