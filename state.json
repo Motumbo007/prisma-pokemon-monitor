@@ -76,7 +76,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268547/pokemon-tcg-kerailykortit-premium-ex-box-111268547"
   },
   "Pokémon TCG keräilykortit First Partner Collection Box": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokémon TCG keräilykortit ME03 Mini Album + Booster, erilaisia": {
@@ -242,5 +242,6 @@
   "Pokemon Mega Evolution Phantasmal Flames Checklane keräilykortti": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
-  }
+  },
+  "_heartbeat_date": "2026-09-07"
 }
