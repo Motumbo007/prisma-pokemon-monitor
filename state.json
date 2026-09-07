@@ -88,7 +88,7 @@
     "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111189305/pokemon-booster-bundle-black-bolt-kerailykortit-111189305"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
@@ -196,7 +196,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
@@ -204,7 +204,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
@@ -242,5 +242,6 @@
   "Pokemon Mega Evolution Phantasmal Flames Checklane keräilykortti": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
-  }
+  },
+  "_heartbeat_date": "2026-09-07"
 }
