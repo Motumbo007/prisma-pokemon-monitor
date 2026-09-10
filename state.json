@@ -52,7 +52,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon TCG Charizard Super Premium Collection": {
@@ -80,7 +80,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268568/pokemon-tcg-kerailykortit-me03-mini-album-booster-erilaisia-111268568"
   },
   "Pokémon TCG keräilykortit First Partner Collection Box": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
@@ -108,7 +108,7 @@
     "url": "https://www.prisma.fi/tuotteet/111189305/pokemon-booster-bundle-black-bolt-kerailykortit-111189305"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
   "Pokemon Scarlet & Violet Unova Victini Illustration Collection Black Bolt & White Flare keräilykortit": {
@@ -196,7 +196,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
