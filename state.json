@@ -7,10 +7,6 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111238992/pokemon-tcg-collector-s-chest-2026-111238992"
   },
-  "Pokémon Battle Academy 2024": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
-  },
   "Pokémon TCG ME02.5 Deluxe Pin Collection": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239001/pokemon-tcg-me025-deluxe-pin-collection-111239001"
@@ -27,8 +23,24 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
   },
+  "Pokémon Battle Academy 2024": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
+  },
+  "Pokémon Box ex 30th (2)": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388831/pokemon-box-ex-30th-2-111388831"
+  },
+  "Pokémon Elite Trainer Box 30th": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388829/pokemon-elite-trainer-box-30th-111388829"
+  },
+  "Pokémon Poster Coll 30th": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388849/pokemon-poster-coll-30th-111388849"
+  },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111211498/pokemon-me02-phantasmal-flames-elite-trainer-box-111211498"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
@@ -67,13 +79,13 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388851/pokemon-sv85-prismatic-evolutions-super-premium-collection-eevee-111388851"
   },
-  "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  Booster Bundle": {
-    "available": false,
-    "url": "https://www.prisma.fi/tuotteet/111268553/pokemon-tcg-kerailykortit-me025-ascended-heroes-booster-bundle-111268553"
-  },
-  "Pokémon TCG ME04 Chaos Rising Booster": {
+  "Pokémon Tin ex 30th (2)": {
     "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
+    "url": "https://www.prisma.fi/tuotteet/111388850/pokemon-tin-ex-30th-2-111388850"
+  },
+  "Pokémon 2-Pack Blister 30th": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388834/pokemon-2-pack-blister-30th-111388834"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  EX Box, erilaisia": {
     "available": false,
@@ -90,6 +102,10 @@
   "Pokémon TCG keräilykortit ME03 Mini Album + Booster, erilaisia": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268568/pokemon-tcg-kerailykortit-me03-mini-album-booster-erilaisia-111268568"
+  },
+  "Pokémon TCG ME04 Chaos Rising Booster": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
     "available": false,
@@ -116,7 +132,7 @@
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Scarlet & Violet Unova Victini Illustration Collection Black Bolt & White Flare keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111181810/pokemon-scarlet-violet-unova-victini-illustration-collection-black-bolt-white-flare-kerailykortit-111181810"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
@@ -144,7 +160,7 @@
     "url": "https://www.prisma.fi/tuotteet/111178942/pokemon-scarlet-violet-unova-poster-collection-black-bolt-white-flare-kerailykortit-111178942"
   },
   "Pokemon Scarlet & Violet Checklane Destined Rivals keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111160310/pokemon-scarlet-violet-checklane-destined-rivals-kerailykortit-111160310"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
@@ -160,7 +176,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251917/pokemon-ex-box-mega-kangaskhan-kerailykortti-111251917"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226207/pokemon-ex-box-mega-latias-kerailykortit-111226207"
   },
   "Pokemon EX Box Hop´s Zacian ex Box keräilykortit": {
@@ -238,5 +254,6 @@
   "Pokemon Stacking Tin -Treasures of Ruin, Paradox tai Ogerpon keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111107228/pokemon-stacking-tin-treasures-of-ruin-paradox-tai-ogerpon-kerailykortit-111107228"
-  }
+  },
+  "_heartbeat_date": "2026-09-21"
 }
