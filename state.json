@@ -1,8 +1,4 @@
 {
-  "Pokémon Elite Trainer Box 30th": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111388829/pokemon-elite-trainer-box-30th-111388829"
-  },
   "Pokémon 2-Pack Blister 30th": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388834/pokemon-2-pack-blister-30th-111388834"
@@ -23,10 +19,6 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111265170/pokemon-tcg-sv9-journey-together-booster-111265170"
   },
-  "Pokémon TCG ME02.5 Tech Sticker Collection": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
-  },
   "Pokémon TCG Collector's Chest 2026": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111238992/pokemon-tcg-collector-s-chest-2026-111238992"
@@ -34,6 +26,14 @@
   "Pokémon Battle Academy 2024": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
+  },
+  "Pokémon Elite Trainer Box 30th": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388829/pokemon-elite-trainer-box-30th-111388829"
+  },
+  "Pokémon TCG ME02.5 Tech Sticker Collection": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
     "available": false,
@@ -87,21 +87,17 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388851/pokemon-sv85-prismatic-evolutions-super-premium-collection-eevee-111388851"
   },
-  "Pokémon TCG keräilykortit ME04 Checklane": {
+  "Pokémon TCG keräilykortit ME03 Premium Checklane, erilaisia": {
     "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111268567/pokemon-tcg-kerailykortit-me04-checklane-111268567"
+    "url": "https://www.prisma.fi/tuotteet/111268563/pokemon-tcg-kerailykortit-me03-premium-checklane-erilaisia-111268563"
   },
-  "Pokémon TCG keräilykortit ME04 Premium Checklane": {
+  "Pokémon TCG ME04 Chaos Rising Booster": {
     "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111268569/pokemon-tcg-kerailykortit-me04-premium-checklane-111268569"
+    "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  Booster Bundle": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268553/pokemon-tcg-kerailykortit-me025-ascended-heroes-booster-bundle-111268553"
-  },
-  "Pokemon 4-pocket Binder -keräilykansio Journey Together keräilykortit": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111124410/pokemon-4-pocket-binder-kerailykansio-journey-together-kerailykortit-111124410"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  EX Box, erilaisia": {
     "available": false,
@@ -118,10 +114,6 @@
   "Pokémon TCG keräilykortit First Partner Collection Box": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
-  },
-  "Pokémon TCG ME04 Chaos Rising Booster": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
     "available": false,
@@ -152,7 +144,7 @@
     "url": "https://www.prisma.fi/tuotteet/110981316/pokemon-scarlet-violet-shrovded-fable-illustration-collection-kingambit-kerailykortit-110981316"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111076444/pokemon-scarlet-violet-prismatic-evolutions-tech-sticker-collection-leafeon-glaceon-sylveon-kerailykortit-111076444"
   },
   "Pokemon Scarlet & Violet Unova Victini Illustration Collection Black Bolt & White Flare keräilykortit": {
@@ -228,11 +220,11 @@
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon 9-pocket Binder -keräilykansio Mega Evolution keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
