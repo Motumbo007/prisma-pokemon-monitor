@@ -19,21 +19,17 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
   },
-  "Pokémon Elite Trainer Box 30th": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111388829/pokemon-elite-trainer-box-30th-111388829"
-  },
   "Pokémon Box ex 30th (2)": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388831/pokemon-box-ex-30th-2-111388831"
   },
-  "Pokémon Tin ex 30th (2)": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111388850/pokemon-tin-ex-30th-2-111388850"
-  },
   "Pokémon TCG ME02.5 Tech Sticker Collection": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
+  },
+  "Pokémon Elite Trainer Box 30th": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/111388829/pokemon-elite-trainer-box-30th-111388829"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
     "available": false,
@@ -84,16 +80,20 @@
     "url": "https://www.prisma.fi/tuotteet/111388840/pokemon-sv10-destined-rivals-elite-trainer-box-111388840"
   },
   "Pokémon SV8.5 Prismatic Evolutions  Super Premium Collection Eevee": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388851/pokemon-sv85-prismatic-evolutions-super-premium-collection-eevee-111388851"
+  },
+  "Pokémon Tin ex 30th (2)": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/111388850/pokemon-tin-ex-30th-2-111388850"
+  },
+  "Pokémon TCG ME04 Chaos Rising Booster": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokemon Booster Bundle Scarlet & Violet Prismatic Evolutions keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111107226/pokemon-booster-bundle-scarlet-violet-prismatic-evolutions-kerailykortit-111107226"
-  },
-  "Pokemon 4-pocket Binder -keräilykansio Journey Together keräilykortit": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111124410/pokemon-4-pocket-binder-kerailykansio-journey-together-kerailykortit-111124410"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  Booster Bundle": {
     "available": false,
@@ -124,7 +124,7 @@
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
   },
   "Pokemon Booster Bundle White Flare keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111189306/pokemon-booster-bundle-white-flare-kerailykortit-111189306"
   },
   "Pokemon Mini Tin Scarlet & Violet Prismatic Evolutions keräilykortit": {
@@ -220,7 +220,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon 9-pocket Binder -keräilykansio Mega Evolution keräilykortit": {
@@ -236,7 +236,7 @@
     "url": "https://www.prisma.fi/tuotteet/110836334/pokemon-scarlet-violet-paradox-rift-kerailykortti-kerailykortit-110836334"
   },
   "Pokemon Stacking Tin -Treasures of Ruin, Paradox tai Ogerpon keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111107228/pokemon-stacking-tin-treasures-of-ruin-paradox-tai-ogerpon-kerailykortit-111107228"
   },
   "Pokemon Scarlet & Violet Checklane Journey Together keräilykortit": {
@@ -260,7 +260,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226200/pokemon-4-pocket-binder-kerailykansio-scarletviolet-kerailykortit-111226200"
   },
   "Pokemon Mega Evolution Phantasmal Flames Checklane keräilykortti": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
   }
 }
