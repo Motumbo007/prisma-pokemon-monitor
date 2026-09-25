@@ -1,8 +1,4 @@
 {
-  "Pokémon 2-Pack Blister 30th": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111388834/pokemon-2-pack-blister-30th-111388834"
-  },
   "Pokémon Poster Coll 30th": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388849/pokemon-poster-coll-30th-111388849"
@@ -18,6 +14,10 @@
   "Pokémon Battle Academy 2024": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
+  },
+  "Pokémon 2-Pack Blister 30th": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388834/pokemon-2-pack-blister-30th-111388834"
   },
   "Pokémon Box ex 30th (2)": {
     "available": true,
@@ -92,7 +92,7 @@
     "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokemon Booster Bundle Scarlet & Violet Prismatic Evolutions keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111107226/pokemon-booster-bundle-scarlet-violet-prismatic-evolutions-kerailykortit-111107226"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  Booster Bundle": {
@@ -136,7 +136,7 @@
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111189305/pokemon-booster-bundle-black-bolt-kerailykortit-111189305"
   },
   "Pokemon Scarlet & Violet Shrovded Fable Illustration Collection Kingambit keräilykortit": {
