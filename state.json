@@ -1,8 +1,4 @@
 {
-  "Pokémon 2-Pack Blister 30th": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111388834/pokemon-2-pack-blister-30th-111388834"
-  },
   "Pokémon TCG SV9 Journey Together Booster": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111265170/pokemon-tcg-sv9-journey-together-booster-111265170"
@@ -18,6 +14,10 @@
   "Pokémon Battle Academy 2024": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
+  },
+  "Pokémon 2-Pack Blister 30th": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388834/pokemon-2-pack-blister-30th-111388834"
   },
   "Pokémon Poster Coll 30th": {
     "available": true,
@@ -76,7 +76,7 @@
     "url": "https://www.prisma.fi/tuotteet/111265169/pokemon-tcg-sv8-surging-sparks-booster-111265169"
   },
   "Pokémon SV10 Destined Rivals Elite trainer box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388840/pokemon-sv10-destined-rivals-elite-trainer-box-111388840"
   },
   "Pokémon SV8.5 Prismatic Evolutions  Super Premium Collection Eevee": {
@@ -92,7 +92,7 @@
     "url": "https://www.prisma.fi/tuotteet/111107226/pokemon-booster-bundle-scarlet-violet-prismatic-evolutions-kerailykortit-111107226"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  Booster Bundle": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268553/pokemon-tcg-kerailykortit-me025-ascended-heroes-booster-bundle-111268553"
   },
   "Pokémon TCG ME04 Chaos Rising Booster": {
@@ -108,7 +108,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268549/pokemon-tcg-kerailykortit-me025-ascended-heroes-ex-box-erilaisia-111268549"
   },
   "Pokémon TCG keräilykortit First Partner Collection Box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokémon TCG keräilykortit ME03 Mini Album + Booster, erilaisia": {
@@ -124,7 +124,7 @@
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
   "Pokemon Booster Bundle White Flare keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111189306/pokemon-booster-bundle-white-flare-kerailykortit-111189306"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
@@ -136,7 +136,7 @@
     "url": "https://www.prisma.fi/tuotteet/111189305/pokemon-booster-bundle-black-bolt-kerailykortit-111189305"
   },
   "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
@@ -152,7 +152,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124415/pokemon-ex-tin-rasia-azure-legends-kerailykortit-111124415"
   },
   "Pokemon EX Box Team Rocket's Mewtwo keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111166630/pokemon-ex-box-team-rocket-s-mewtwo-kerailykortit-111166630"
   },
   "Pokemon Mega Evolution -keräilykortit 2025 keräilykortit": {
@@ -172,7 +172,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226207/pokemon-ex-box-mega-latias-kerailykortit-111226207"
   },
   "Pokemon Scarlet & Violet Unova Poster Collection Black Bolt & White Flare keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111178942/pokemon-scarlet-violet-unova-poster-collection-black-bolt-white-flare-kerailykortit-111178942"
   },
   "Pokemon EX Box Hop´s Zacian ex Box keräilykortit": {
@@ -200,7 +200,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
   },
   "Pokemon Scarlet & Violet -keräilykortit Destined Rivals keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111160309/pokemon-scarlet-violet-kerailykortit-destined-rivals-kerailykortit-111160309"
   },
   "Pokemon Scarlet & Violet Checklane Destined Rivals keräilykortit": {
