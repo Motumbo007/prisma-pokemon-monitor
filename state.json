@@ -60,7 +60,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239007/pokemon-tcg-me025-elite-trainer-box-111239007"
   },
   "Pokémon TCG Pokémon day -juhlatuote": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
@@ -168,7 +168,7 @@
     "url": "https://www.prisma.fi/tuotteet/110981316/pokemon-scarlet-violet-shrovded-fable-illustration-collection-kingambit-kerailykortit-110981316"
   },
   "Pokemon EX Box Team Rocket's Mewtwo keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111166630/pokemon-ex-box-team-rocket-s-mewtwo-kerailykortit-111166630"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
@@ -240,11 +240,11 @@
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
   },
   "Pokemon 4-pocket Binder -keräilykansio Pikachu keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/110436626/pokemon-4-pocket-binder-kerailykansio-pikachu-kerailykortit-110436626"
   },
   "Pokemon Scarlet & Violet Paradox Rift Keräilykortti keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/110836334/pokemon-scarlet-violet-paradox-rift-kerailykortti-kerailykortit-110836334"
   },
   "Pokemon Stacking Tin -Treasures of Ruin, Paradox tai Ogerpon keräilykortit": {
@@ -276,7 +276,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
