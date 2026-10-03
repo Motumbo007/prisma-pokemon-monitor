@@ -52,7 +52,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239000/pokemon-tcg-me025-mini-tin-111239000"
   },
   "Pokémon TCG ME02.5 Deluxe Pin Collection": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239001/pokemon-tcg-me025-deluxe-pin-collection-111239001"
   },
   "Pokémon TCG ME02.5 Elite Trainer Box": {
@@ -72,7 +72,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239026/pokemon-tcg-spring-tin-2026-111239026"
   },
   "Pokémon TCG ME02.5 Enhanced 2-Pack": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239027/pokemon-tcg-me025-enhanced-2-pack-111239027"
   },
   "Pokémon TCG SV8 Surging Sparks Booster": {
@@ -120,7 +120,7 @@
     "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  EX Box, erilaisia": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268549/pokemon-tcg-kerailykortit-me025-ascended-heroes-ex-box-erilaisia-111268549"
   },
   "Pokémon TCG keräilykortit ME03 Mini Album + Booster, erilaisia": {
@@ -212,7 +212,7 @@
     "url": "https://www.prisma.fi/tuotteet/111153134/pokemon-ex-tin-rasia-slashing-legends-kerailykortit-111153134"
   },
   "Pokemon Scarlet & Violet -keräilykortit Destined Rivals keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111160309/pokemon-scarlet-violet-kerailykortit-destined-rivals-kerailykortit-111160309"
   },
   "Pokemon Scarlet & Violet Checklane Destined Rivals keräilykortit": {
@@ -264,7 +264,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon 9-pocket Binder -keräilykansio Mega Evolution keräilykortit": {
