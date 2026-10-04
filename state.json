@@ -95,9 +95,17 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388850/pokemon-tin-ex-30th-2-111388850"
   },
-  "Pokémon TCG keräilykortit ME03 Checklane": {
+  "Pokémon TCG keräilykortit ME03 3-Pack Blister": {
     "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111268558/pokemon-tcg-kerailykortit-me03-checklane-111268558"
+    "url": "https://www.prisma.fi/tuotteet/111268543/pokemon-tcg-kerailykortit-me03-3-pack-blister-111268543"
+  },
+  "Pokémon TCG keräilykortit ME04 3-Pack Blister": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111268572/pokemon-tcg-kerailykortit-me04-3-pack-blister-111268572"
+  },
+  "Pokémon TCG keräilykortit ME03 Premium Checklane, erilaisia": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111268563/pokemon-tcg-kerailykortit-me03-premium-checklane-erilaisia-111268563"
   },
   "Pokémon TCG keräilykortit ME04 Checklane": {
     "available": true,
@@ -135,17 +143,21 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
-  "Pokémon TCG keräilykortit First Partner Collection Box": {
-    "available": false,
-    "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
-  },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
+  "Pokémon TCG keräilykortit First Partner Collection Box": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
+  },
   "Pokemon Booster Bundle White Flare keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111189306/pokemon-booster-bundle-white-flare-kerailykortit-111189306"
+  },
+  "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
     "available": false,
@@ -154,10 +166,6 @@
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
-  },
-  "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
-    "available": false,
-    "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
     "available": false,
@@ -216,7 +224,7 @@
     "url": "https://www.prisma.fi/tuotteet/111136483/pokemon-ex-box-hops-zacian-ex-box-kerailykortit-111136483"
   },
   "Pokemon EX Tin -rasia Slashing Legends keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111153134/pokemon-ex-tin-rasia-slashing-legends-kerailykortit-111153134"
   },
   "Pokemon Scarlet & Violet -keräilykortit Destined Rivals keräilykortit": {
@@ -260,7 +268,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon 9-pocket Binder -keräilykansio Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124408/pokemon-9-pocket-binder-kerailykansio-journey-together-kerailykortit-111124408"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
@@ -268,7 +276,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124412/pokemon-scarlet-violet-kerailykortit-journey-together-kerailykortit-111124412"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon Mini Tin": {
