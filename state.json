@@ -60,7 +60,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239007/pokemon-tcg-me025-elite-trainer-box-111239007"
   },
   "Pokémon TCG Pokémon day -juhlatuote": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
@@ -168,7 +168,7 @@
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111076444/pokemon-scarlet-violet-prismatic-evolutions-tech-sticker-collection-leafeon-glaceon-sylveon-kerailykortit-111076444"
   },
   "Pokemon Scarlet & Violet Shrovded Fable Illustration Collection Kingambit keräilykortit": {
@@ -276,7 +276,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124412/pokemon-scarlet-violet-kerailykortit-journey-together-kerailykortit-111124412"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111178941/pokemon-mini-tin-unova-kerailykortit-111178941"
   },
   "Pokemon Mini Tin": {
@@ -290,5 +290,6 @@
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226200/pokemon-4-pocket-binder-kerailykansio-scarletviolet-kerailykortit-111226200"
-  }
+  },
+  "_heartbeat_date": "2026-10-05"
 }
