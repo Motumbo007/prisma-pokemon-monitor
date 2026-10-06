@@ -15,25 +15,25 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388831/pokemon-box-ex-30th-2-111388831"
   },
-  "Pokémon TCG Charizard Super Premium Collection": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111239018/pokemon-tcg-charizard-super-premium-collection-111239018"
-  },
   "Pokémon TCG SV9 Journey Together Booster": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111265170/pokemon-tcg-sv9-journey-together-booster-111265170"
+  },
+  "Pokémon TCG Charizard Super Premium Collection": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111239018/pokemon-tcg-charizard-super-premium-collection-111239018"
   },
   "Pokémon TCG ME02.5 Tech Sticker Collection": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
   },
-  "Pokémon TCG Collector's Chest 2026": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111238992/pokemon-tcg-collector-s-chest-2026-111238992"
-  },
   "Pokémon Battle Academy 2024": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
+  },
+  "Pokémon TCG Collector's Chest 2026": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111238992/pokemon-tcg-collector-s-chest-2026-111238992"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
     "available": false,
@@ -76,7 +76,7 @@
     "url": "https://www.prisma.fi/tuotteet/111265169/pokemon-tcg-sv8-surging-sparks-booster-111265169"
   },
   "Pokémon SV10 Destined Rivals Elite trainer box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388840/pokemon-sv10-destined-rivals-elite-trainer-box-111388840"
   },
   "Pokémon SV8.5 Prismatic Evolutions  Super Premium Collection Eevee": {
@@ -116,7 +116,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124410/pokemon-4-pocket-binder-kerailykansio-journey-together-kerailykortit-111124410"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  Booster Bundle": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268553/pokemon-tcg-kerailykortit-me025-ascended-heroes-booster-bundle-111268553"
   },
   "Pokémon TCG keräilykortit ME04 Booster Bundle": {
@@ -243,13 +243,13 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
-  "Pokemon 4-pocket Binder -keräilykansio Pikachu keräilykortit": {
-    "available": false,
-    "url": "https://www.prisma.fi/tuotteet/110436626/pokemon-4-pocket-binder-kerailykansio-pikachu-kerailykortit-110436626"
-  },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124412/pokemon-scarlet-violet-kerailykortit-journey-together-kerailykortit-111124412"
+  },
+  "Pokemon 4-pocket Binder -keräilykansio Pikachu keräilykortit": {
+    "available": false,
+    "url": "https://www.prisma.fi/tuotteet/110436626/pokemon-4-pocket-binder-kerailykansio-pikachu-kerailykortit-110436626"
   },
   "Pokemon Scarlet & Violet Paradox Rift Keräilykortti keräilykortit": {
     "available": false,
