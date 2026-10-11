@@ -32,7 +32,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
   },
   "Pokémon BST Bundle 30th": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388842/pokemon-bst-bundle-30th-111388842"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
@@ -100,7 +100,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268537/pokemon-tcg-kerailykortit-enhanced-2-pack-111268537"
   },
   "Pokemon Booster Bundle Scarlet & Violet Prismatic Evolutions keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111107226/pokemon-booster-bundle-scarlet-violet-prismatic-evolutions-kerailykortit-111107226"
   },
   "Pokémon TCG ME04 Chaos Rising Booster": {
@@ -176,7 +176,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124415/pokemon-ex-tin-rasia-azure-legends-kerailykortit-111124415"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226207/pokemon-ex-box-mega-latias-kerailykortit-111226207"
   },
   "Pokemon EX Tin -rasia Slashing Legends keräilykortit": {
@@ -212,7 +212,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
   },
   "Pokemon Mega Evolution 3 pack -paketti Golduck keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226206/pokemon-mega-evolution-3-pack-paketti-golduck-kerailykortit-111226206"
   },
   "Pokemon 9-pocket Binder -keräilykansio Surging Sparks keräilykortit": {
