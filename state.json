@@ -15,10 +15,6 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111265170/pokemon-tcg-sv9-journey-together-booster-111265170"
   },
-  "Pokémon Battle Academy 2024": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
-  },
   "Pokémon 2-Pack Blister 30th": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388834/pokemon-2-pack-blister-30th-111388834"
@@ -30,6 +26,10 @@
   "Pokémon TCG ME02.5 Tech Sticker Collection": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
+  },
+  "Pokémon Battle Academy 2024": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111239028/pokemon-battle-academy-2024-111239028"
   },
   "Pokémon BST Bundle 30th": {
     "available": false,
@@ -172,7 +172,7 @@
     "url": "https://www.prisma.fi/tuotteet/111181810/pokemon-scarlet-violet-unova-victini-illustration-collection-black-bolt-white-flare-kerailykortit-111181810"
   },
   "Pokemon EX Tin -rasia Azure Legends keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111124415/pokemon-ex-tin-rasia-azure-legends-kerailykortit-111124415"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
@@ -278,6 +278,5 @@
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226200/pokemon-4-pocket-binder-kerailykansio-scarletviolet-kerailykortit-111226200"
-  },
-  "_heartbeat_date": "2026-10-12"
+  }
 }
