@@ -95,6 +95,10 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388842/pokemon-bst-bundle-30th-111388842"
   },
+  "Pokémon TCG keräilykortit ME03 Booster Bundle": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111268545/pokemon-tcg-kerailykortit-me03-booster-bundle-111268545"
+  },
   "Pokémon TCG Premium EX Box": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111354658/pokemon-tcg-premium-ex-box-111354658"
@@ -124,7 +128,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268568/pokemon-tcg-kerailykortit-me03-mini-album-booster-erilaisia-111268568"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  EX Box, erilaisia": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268549/pokemon-tcg-kerailykortit-me025-ascended-heroes-ex-box-erilaisia-111268549"
   },
   "Pokemon Mini Tin Scarlet & Violet Prismatic Evolutions keräilykortit": {
@@ -136,7 +140,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
   "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
@@ -176,7 +180,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124415/pokemon-ex-tin-rasia-azure-legends-kerailykortit-111124415"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226207/pokemon-ex-box-mega-latias-kerailykortit-111226207"
   },
   "Pokemon Mega Evolution -keräilykortit 2025 keräilykortit": {
@@ -278,6 +282,5 @@
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226200/pokemon-4-pocket-binder-kerailykansio-scarletviolet-kerailykortit-111226200"
-  },
-  "_heartbeat_date": "2026-10-12"
+  }
 }
