@@ -68,7 +68,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239027/pokemon-tcg-me025-enhanced-2-pack-111239027"
   },
   "Pokémon TCG SV8 Surging Sparks Booster": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111265169/pokemon-tcg-sv8-surging-sparks-booster-111265169"
   },
   "Pokémon SV10 Destined Rivals Elite trainer box": {
@@ -212,7 +212,7 @@
     "url": "https://www.prisma.fi/tuotteet/111107228/pokemon-stacking-tin-treasures-of-ruin-paradox-tai-ogerpon-kerailykortit-111107228"
   },
   "Pokemon Scarlet & Violet Checklane Journey Together keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111124405/pokemon-scarlet-violet-checklane-journey-together-kerailykortit-111124405"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
@@ -220,7 +220,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon 9-pocket Binder -keräilykansio Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124408/pokemon-9-pocket-binder-kerailykansio-journey-together-kerailykortit-111124408"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
@@ -274,6 +274,5 @@
   "Pokemon Mega Evolution Phantasmal Flames 3 pack -paketti keräilykortti": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
-  },
-  "_heartbeat_date": "2026-10-26"
+  }
 }
