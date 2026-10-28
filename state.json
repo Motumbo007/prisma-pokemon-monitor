@@ -40,7 +40,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111211498/pokemon-me02-phantasmal-flames-elite-trainer-box-111211498"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
@@ -116,7 +116,7 @@
     "url": "https://www.prisma.fi/tuotteet/111354658/pokemon-tcg-premium-ex-box-111354658"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  Booster Bundle": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111268553/pokemon-tcg-kerailykortit-me025-ascended-heroes-booster-bundle-111268553"
   },
   "Pokémon TCG keräilykortit ME03 Mini Album + Booster, erilaisia": {
@@ -136,7 +136,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268549/pokemon-tcg-kerailykortit-me025-ascended-heroes-ex-box-erilaisia-111268549"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
@@ -148,11 +148,11 @@
     "url": "https://www.prisma.fi/tuotteet/110996830/pokemon-booster-bundle-shrouded-fable-kerailykortit-110996830"
   },
   "Pokemon EX Tin -rasia Team Rocket keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111197425/pokemon-ex-tin-rasia-team-rocket-kerailykortit-111197425"
   },
   "Pokemon Scarlet & Violet Shrovded Fable Illustration Collection Kingambit keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/110981316/pokemon-scarlet-violet-shrovded-fable-illustration-collection-kingambit-kerailykortit-110981316"
   },
   "Pokemon Mega Evolution -keräilykortit 2025 keräilykortit": {
@@ -272,7 +272,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251917/pokemon-ex-box-mega-kangaskhan-kerailykortti-111251917"
   },
   "Pokemon Mega Evolution Phantasmal Flames Checklane keräilykortti": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
   },
   "Pokemon Mega Evolution Phantasmal Flames 3 pack -paketti keräilykortti": {
