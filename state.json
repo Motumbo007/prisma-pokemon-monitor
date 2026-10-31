@@ -48,7 +48,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239023/pokemon-tcg-me025-tech-sticker-collection-111239023"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111211498/pokemon-me02-phantasmal-flames-elite-trainer-box-111211498"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
@@ -107,25 +107,17 @@
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388835/pokemon-30th-battle-deck-erilaisia-111388835"
   },
-  "Pokémon TCG keräilykortit ME04 Premium Checklane": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111268569/pokemon-tcg-kerailykortit-me04-premium-checklane-111268569"
-  },
-  "Pokémon TCG  First Partner Collection Box Series  3": {
-    "available": false,
-    "url": "https://www.prisma.fi/tuotteet/111354652/pokemon-tcg-first-partner-collection-box-series-3-111354652"
-  },
   "Pokemon Booster Bundle Scarlet & Violet Prismatic Evolutions keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111107226/pokemon-booster-bundle-scarlet-violet-prismatic-evolutions-kerailykortit-111107226"
   },
+  "Pokémon TCG ME05 Pitch Black Elite Trainer Box": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111354660/pokemon-tcg-me05-pitch-black-elite-trainer-box-111354660"
+  },
   "Pokémon TCG ME04 Chaos Rising Booster": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111391181/pokemon-tcg-me04-chaos-rising-booster-111391181"
-  },
-  "Pokémon TCG Premium EX Box": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111354658/pokemon-tcg-premium-ex-box-111354658"
   },
   "Pokémon TCG keräilykortit ME04 Booster Bundle": {
     "available": true,
@@ -152,8 +144,12 @@
     "url": "https://www.prisma.fi/tuotteet/111092570/pokemon-mini-tin-scarlet-violet-prismatic-evolutions-kerailykortit-111092570"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111076445/pokemon-scarlet-violet-prismatic-evolutions-poster-collection-flareon-vaporeon-jolteon-kerailykortit-111076445"
+  },
+  "Pokémon TCG Premium EX Box": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111354658/pokemon-tcg-premium-ex-box-111354658"
   },
   "Pokemon Booster Bundle Shrouded Fable keräilykortit": {
     "available": false,
@@ -188,7 +184,7 @@
     "url": "https://www.prisma.fi/tuotteet/111166630/pokemon-ex-box-team-rocket-s-mewtwo-kerailykortit-111166630"
   },
   "Pokemon EX Tin -rasia Slashing Legends keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111153134/pokemon-ex-tin-rasia-slashing-legends-kerailykortit-111153134"
   },
   "Pokemon Mega Evolution -keräilykortit 2025 keräilykortit": {
@@ -196,7 +192,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226204/pokemon-mega-evolution-kerailykortit-2025-kerailykortit-111226204"
   },
   "Pokemon EX Box Hop´s Zacian ex Box keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111136483/pokemon-ex-box-hops-zacian-ex-box-kerailykortit-111136483"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
