@@ -1,8 +1,4 @@
 {
-  "Pokémon Mini Tins 30th (10)": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111388832/pokemon-mini-tins-30th-10-111388832"
-  },
   "Pokémon TCG Enhanced 2-pack October 26’": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111433656/pokemon-tcg-enhanced-2-pack-october-26-111433656"
@@ -26,6 +22,10 @@
   "Pokémon Mini Album w/ booster October 26’": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111433658/pokemon-mini-album-w-booster-october-26-111433658"
+  },
+  "Pokémon Mini Tins 30th (10)": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388832/pokemon-mini-tins-30th-10-111388832"
   },
   "Pokémon 2-Pack Blister 30th": {
     "available": true,
@@ -100,7 +100,7 @@
     "url": "https://www.prisma.fi/tuotteet/111388850/pokemon-tin-ex-30th-2-111388850"
   },
   "Pokémon BST Bundle 30th": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388842/pokemon-bst-bundle-30th-111388842"
   },
   "Pokémon 30th Battle Deck, erilaisia": {
@@ -212,7 +212,7 @@
     "url": "https://www.prisma.fi/tuotteet/111178942/pokemon-scarlet-violet-unova-poster-collection-black-bolt-white-flare-kerailykortit-111178942"
   },
   "Pokemon EX Box Mega Kangaskhan keräilykortti": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111251917/pokemon-ex-box-mega-kangaskhan-kerailykortti-111251917"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
@@ -232,7 +232,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226206/pokemon-mega-evolution-3-pack-paketti-golduck-kerailykortit-111226206"
   },
   "Pokemon 9-pocket Binder -keräilykansio Mega Evolution keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
@@ -252,7 +252,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
   },
   "Pokemon Mini Tin": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
@@ -290,6 +290,5 @@
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
-  },
-  "_heartbeat_date": "2026-11-02"
+  }
 }
