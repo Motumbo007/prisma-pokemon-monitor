@@ -56,7 +56,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239000/pokemon-tcg-me025-mini-tin-111239000"
   },
   "Pokémon ME02 Phantasmal Flames Elite Trainer Box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111211498/pokemon-me02-phantasmal-flames-elite-trainer-box-111211498"
   },
   "Pokémon Mega Charizard Ultra Premium Collection": {
@@ -72,7 +72,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon TCG Spring Tin 2026": {
@@ -88,7 +88,7 @@
     "url": "https://www.prisma.fi/tuotteet/111265169/pokemon-tcg-sv8-surging-sparks-booster-111265169"
   },
   "Pokémon SV10 Destined Rivals Elite trainer box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388840/pokemon-sv10-destined-rivals-elite-trainer-box-111388840"
   },
   "Pokémon SV8.5 Prismatic Evolutions  Super Premium Collection Eevee": {
@@ -96,7 +96,7 @@
     "url": "https://www.prisma.fi/tuotteet/111388851/pokemon-sv85-prismatic-evolutions-super-premium-collection-eevee-111388851"
   },
   "Pokémon Elite Trainer Box 30th": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388829/pokemon-elite-trainer-box-30th-111388829"
   },
   "Pokémon Tin ex 30th (2)": {
@@ -108,7 +108,7 @@
     "url": "https://www.prisma.fi/tuotteet/111388842/pokemon-bst-bundle-30th-111388842"
   },
   "Pokémon TCG  First Partner Collection Box Series  3": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111354652/pokemon-tcg-first-partner-collection-box-series-3-111354652"
   },
   "Pokémon TCG ME05 Pitch Black Elite Trainer Box": {
@@ -188,7 +188,7 @@
     "url": "https://www.prisma.fi/tuotteet/111166630/pokemon-ex-box-team-rocket-s-mewtwo-kerailykortit-111166630"
   },
   "Pokemon Scarlet & Violet Unova Victini Illustration Collection Black Bolt & White Flare keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111181810/pokemon-scarlet-violet-unova-victini-illustration-collection-black-bolt-white-flare-kerailykortit-111181810"
   },
   "Pokemon Mega Evolution -keräilykortit 2025 keräilykortit": {
@@ -228,7 +228,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226206/pokemon-mega-evolution-3-pack-paketti-golduck-kerailykortit-111226206"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111251922/pokemon-mega-evolution-phantasmal-flames-kerailykortit-kerailykortti-111251922"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
@@ -252,7 +252,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226197/pokemon-mini-tin-111226197"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Destined Rivals keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111160307/pokemon-scarlet-violet-3-pack-paketti-destined-rivals-kerailykortit-111160307"
   },
   "Pokemon Mini Tin Unova keräilykortit": {
@@ -264,7 +264,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251920/pokemon-mega-evolution-phantasmal-flames-3-pack-paketti-kerailykortti-111251920"
   },
   "Pokemon Scarlet & Violet Checklane Journey Together keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111124405/pokemon-scarlet-violet-checklane-journey-together-kerailykortit-111124405"
   },
   "Pokemon 9-pocket Binder -keräilykansio Surging Sparks keräilykortit": {
