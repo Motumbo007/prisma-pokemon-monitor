@@ -52,7 +52,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon TCG Spring Tin 2026": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239026/pokemon-tcg-spring-tin-2026-111239026"
   },
   "Pokémon TCG ME02.5 Enhanced 2-Pack": {
@@ -64,7 +64,7 @@
     "url": "https://www.prisma.fi/tuotteet/111265169/pokemon-tcg-sv8-surging-sparks-booster-111265169"
   },
   "Pokémon SV10 Destined Rivals Elite trainer box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111388840/pokemon-sv10-destined-rivals-elite-trainer-box-111388840"
   },
   "Pokémon SV8.5 Prismatic Evolutions  Super Premium Collection Eevee": {
@@ -147,10 +147,6 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111433658/pokemon-mini-album-w-booster-october-26-111433658"
   },
-  "Pokémon ME06 Delta Reign Booster Bundle": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111433657/pokemon-me06-delta-reign-booster-bundle-111433657"
-  },
   "Pokémon TCG keräilykortit ME03 Elite Trainer Box, erilaisia": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268552/pokemon-tcg-kerailykortit-me03-elite-trainer-box-erilaisia-111268552"
@@ -158,6 +154,10 @@
   "Pokémon TCG ME05 Pitch Black Checklane Blister": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111354653/pokemon-tcg-me05-pitch-black-checklane-blister-111354653"
+  },
+  "Pokémon TCG keräilykortit ME03 Premium Checklane, erilaisia": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111268563/pokemon-tcg-kerailykortit-me03-premium-checklane-erilaisia-111268563"
   },
   "Pokémon TCG keräilykortit First Partner Collection Box": {
     "available": false,
@@ -256,7 +256,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
   "Pokemon Mega Evolution Phantasmal Flames-keräilykortit keräilykortti": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111251922/pokemon-mega-evolution-phantasmal-flames-kerailykortit-kerailykortti-111251922"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
@@ -326,6 +326,5 @@
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
     "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226200/pokemon-4-pocket-binder-kerailykansio-scarletviolet-kerailykortit-111226200"
-  },
-  "_heartbeat_date": "2026-11-09"
+  }
 }
