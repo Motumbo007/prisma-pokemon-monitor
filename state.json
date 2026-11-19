@@ -40,15 +40,15 @@
     "url": "https://www.prisma.fi/tuotteet/111211502/pokemon-mega-charizard-ultra-premium-collection-111211502"
   },
   "Pokémon TCG ME02.5 Elite Trainer Box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239007/pokemon-tcg-me025-elite-trainer-box-111239007"
   },
   "Pokémon TCG Pokémon day -juhlatuote": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239015/pokemon-tcg-pokemon-day-juhlatuote-111239015"
   },
   "Pokémon TCG ME02.5 Premium Poster Collection, erilaisia": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111239016/pokemon-tcg-me025-premium-poster-collection-erilaisia-111239016"
   },
   "Pokémon TCG Spring Tin 2026": {
@@ -68,7 +68,7 @@
     "url": "https://www.prisma.fi/tuotteet/111388840/pokemon-sv10-destined-rivals-elite-trainer-box-111388840"
   },
   "Pokémon SV8.5 Prismatic Evolutions  Super Premium Collection Eevee": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111388851/pokemon-sv85-prismatic-evolutions-super-premium-collection-eevee-111388851"
   },
   "Pokémon TCG ME05 Pitch Black Premium Checklane Blister": {
@@ -164,7 +164,7 @@
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  EX Box, erilaisia": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268549/pokemon-tcg-kerailykortit-me025-ascended-heroes-ex-box-erilaisia-111268549"
   },
   "Pokemon 9-pocket Binder -keräilykansio Mega Evolution keräilykortit": {
@@ -172,7 +172,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226199/pokemon-9-pocket-binder-kerailykansio-mega-evolution-kerailykortit-111226199"
   },
   "Pokemon Booster Bundle Black Bolt keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111189305/pokemon-booster-bundle-black-bolt-kerailykortit-111189305"
   },
   "Pokémon TCG ME05 Pitch Black Elite Trainer Box": {
@@ -256,7 +256,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251919/pokemon-mega-evolution-phantasmal-flames-checklane-kerailykortti-111251919"
   },
   "Pokemon Scarlet & Violet -keräilykortit Journey Together keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111124412/pokemon-scarlet-violet-kerailykortit-journey-together-kerailykortit-111124412"
   },
   "Pokemon Scarlet & Violet -keräilykortit Destined Rivals keräilykortit": {
@@ -268,7 +268,7 @@
     "url": "https://www.prisma.fi/tuotteet/111251922/pokemon-mega-evolution-phantasmal-flames-kerailykortit-kerailykortti-111251922"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Tech Sticker Collection Leafeon, Glaceon, Sylveon keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111076444/pokemon-scarlet-violet-prismatic-evolutions-tech-sticker-collection-leafeon-glaceon-sylveon-kerailykortit-111076444"
   },
   "Pokemon Mega Evolution Phantasmal Flames 3 pack -paketti keräilykortti": {
@@ -300,7 +300,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124405/pokemon-scarlet-violet-checklane-journey-together-kerailykortit-111124405"
   },
   "Pokemon 9-pocket Binder -keräilykansio Surging Sparks keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111095688/pokemon-9-pocket-binder-kerailykansio-surging-sparks-kerailykortit-111095688"
   },
   "Pokemon Stacking Tin -Treasures of Ruin, Paradox tai Ogerpon keräilykortit": {
@@ -312,7 +312,7 @@
     "url": "https://www.prisma.fi/tuotteet/111124408/pokemon-9-pocket-binder-kerailykansio-journey-together-kerailykortit-111124408"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Destined Rivals keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111160307/pokemon-scarlet-violet-3-pack-paketti-destined-rivals-kerailykortit-111160307"
   },
   "Pokemon Mega Evolution Checklane Drifblim, Drifloon keräilykortit": {
