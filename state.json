@@ -56,7 +56,7 @@
     "url": "https://www.prisma.fi/tuotteet/111239026/pokemon-tcg-spring-tin-2026-111239026"
   },
   "Pokémon TCG ME02.5 Enhanced 2-Pack": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111239027/pokemon-tcg-me025-enhanced-2-pack-111239027"
   },
   "Pokémon TCG SV8 Surging Sparks Booster": {
@@ -127,6 +127,10 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268568/pokemon-tcg-kerailykortit-me03-mini-album-booster-erilaisia-111268568"
   },
+  "Pokémon Figure Coll 30th (2), erilaisia": {
+    "available": true,
+    "url": "https://www.prisma.fi/tuotteet/111388847/pokemon-figure-coll-30th-2-erilaisia-111388847"
+  },
   "Pokémon ME06 Delta Reign Elite Trainer Box": {
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111433663/pokemon-me06-delta-reign-elite-trainer-box-111433663"
@@ -155,12 +159,8 @@
     "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268547/pokemon-tcg-kerailykortit-premium-ex-box-111268547"
   },
-  "Pokémon TCG keräilykortit ME03 Elite Trainer Box, erilaisia": {
-    "available": true,
-    "url": "https://www.prisma.fi/tuotteet/111268552/pokemon-tcg-kerailykortit-me03-elite-trainer-box-erilaisia-111268552"
-  },
   "Pokémon TCG keräilykortit First Partner Collection Box": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111268550/pokemon-tcg-kerailykortit-first-partner-collection-box-111268550"
   },
   "Pokémon TCG keräilykortit ME02.5 Ascended Heroes  EX Box, erilaisia": {
@@ -192,7 +192,7 @@
     "url": "https://www.prisma.fi/tuotteet/110981316/pokemon-scarlet-violet-shrovded-fable-illustration-collection-kingambit-kerailykortit-110981316"
   },
   "Pokemon EX Box Mega Latias keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111226207/pokemon-ex-box-mega-latias-kerailykortit-111226207"
   },
   "Pokemon Scarlet & Violet Prismatic Evolutions Poster Collection Flareon, Vaporeon, Jolteon keräilykortit": {
@@ -208,7 +208,7 @@
     "url": "https://www.prisma.fi/tuotteet/111181810/pokemon-scarlet-violet-unova-victini-illustration-collection-black-bolt-white-flare-kerailykortit-111181810"
   },
   "Pokemon Booster Bundle White Flare keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111189306/pokemon-booster-bundle-white-flare-kerailykortit-111189306"
   },
   "Pokemon EX Box Hop´s Zacian ex Box keräilykortit": {
@@ -240,11 +240,11 @@
     "url": "https://www.prisma.fi/tuotteet/111388833/pokemon-binder-coll-30th-111388833"
   },
   "Pokemon Scarlet & Violet 3 pack -paketti Journey Together keräilykortit": {
-    "available": false,
+    "available": true,
     "url": "https://www.prisma.fi/tuotteet/111124406/pokemon-scarlet-violet-3-pack-paketti-journey-together-kerailykortit-111124406"
   },
   "Pokemon Scarlet & Violet -keräilykortit Destined Rivals keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111160309/pokemon-scarlet-violet-kerailykortit-destined-rivals-kerailykortit-111160309"
   },
   "Pokemon Scarlet & Violet Checklane Destined Rivals keräilykortit": {
@@ -252,7 +252,7 @@
     "url": "https://www.prisma.fi/tuotteet/111160310/pokemon-scarlet-violet-checklane-destined-rivals-kerailykortit-111160310"
   },
   "Pokemon Mega Evolution 3 pack -paketti Golduck keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226206/pokemon-mega-evolution-3-pack-paketti-golduck-kerailykortit-111226206"
   },
   "Pokemon Mega Evolution -keräilykortit 2025 keräilykortit": {
@@ -320,7 +320,7 @@
     "url": "https://www.prisma.fi/tuotteet/111226198/pokemon-mega-evolution-checklane-drifblim-drifloon-kerailykortit-111226198"
   },
   "Pokemon 4-pocket Binder -keräilykansio Scarlet&Violet keräilykortit": {
-    "available": true,
+    "available": false,
     "url": "https://www.prisma.fi/tuotteet/111226200/pokemon-4-pocket-binder-kerailykansio-scarletviolet-kerailykortit-111226200"
   },
   "Pokémon TCG Premium EX Box": {
